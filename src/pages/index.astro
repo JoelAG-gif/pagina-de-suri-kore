@@ -1,0 +1,275 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+<Layout title="SÜRI KŌRE — Matemáticas Mágicas">
+
+  <!-- NAV -->
+  <nav class="site-nav">
+    <a href="/" class="nav-logo">SÜRI <span>KŌRE</span></a>
+    <ul class="nav-links">
+      <li><a href="#niveles">Niveles</a></li>
+      <li><a href="#funciones">Funciones</a></li>
+      <li><a href="#planes">Planes</a></li>
+      <li><a href="#como-funciona">Cómo funciona</a></li>
+    </ul>
+    <a href="#planes" class="nav-cta">Descargar</a>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wizard-float">🧙</div>
+    <div class="hero-badge">✦ MATEMÁTICAS MÁGICAS ✦</div>
+    <h1>SÜRI<span>KŌRE</span></h1>
+    <p class="hero-tagline">Desde contar objetos hasta derivadas — una sola app para todo el camino</p>
+    <div class="hero-btns">
+      <a href="#planes" class="btn-primary">✦ Descargar gratis</a>
+      <a href="#funciones" class="btn-secondary">Ver funciones</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat-item"><span class="stat-num">35+</span><span class="stat-lbl">operaciones matemáticas</span></div>
+      <div class="stat-item"><span class="stat-num">26</span><span class="stat-lbl">países soportados</span></div>
+      <div class="stat-item"><span class="stat-num">4</span><span class="stat-lbl">niveles educativos</span></div>
+    </div>
+  </section>
+
+  <!-- NIVELES -->
+  <section id="niveles">
+    <div class="section-inner">
+      <p class="section-tag">✦ PARA TODOS ✦</p>
+      <h2 class="section-title">Un nivel para cada etapa</h2>
+      <p class="section-sub">Desde los primeros números hasta cálculo y trigonometría. La app crece contigo.</p>
+      <div class="niveles-grid">
+        <div class="nivel-card" style="--accent:#FF9ECD">
+          <span class="nivel-emoji">🎈</span>
+          <div class="nivel-name">Inicial</div>
+          <div class="nivel-age">3 – 6 años</div>
+          <div class="nivel-temas">
+            <span class="tema-pill">Contar</span><span class="tema-pill">Formas</span>
+            <span class="tema-pill">Comparar</span><span class="tema-pill">Secuencias</span>
+            <span class="tema-pill">Ordinales</span>
+          </div>
+        </div>
+        <div class="nivel-card" style="--accent:#4ECDC4">
+          <span class="nivel-emoji">📚</span>
+          <div class="nivel-name">Primaria</div>
+          <div class="nivel-age">6 – 12 años</div>
+          <div class="nivel-temas">
+            <span class="tema-pill">Suma / Resta</span><span class="tema-pill">Multiplicación</span>
+            <span class="tema-pill">Fracciones</span><span class="tema-pill">Geometría</span>
+            <span class="tema-pill">Romanos</span><span class="tema-pill">+12 temas</span>
+          </div>
+        </div>
+        <div class="nivel-card" style="--accent:#CC88FF">
+          <span class="nivel-emoji">🎓</span>
+          <div class="nivel-name">Secundaria</div>
+          <div class="nivel-age">12 – 17 años · ⏱️ Cronómetro</div>
+          <div class="nivel-temas">
+            <span class="tema-pill">Álgebra</span><span class="tema-pill">Trigonometría</span>
+            <span class="tema-pill">Probabilidad</span><span class="tema-pill">Logaritmos</span>
+            <span class="tema-pill">+9 temas</span>
+          </div>
+        </div>
+        <div class="nivel-card" style="--accent:#FFD700">
+          <span class="nivel-emoji">🏛️</span>
+          <div class="nivel-name">Pre-universitario</div>
+          <div class="nivel-age">17+ años · ⏱️ Velocidad</div>
+          <div class="nivel-temas">
+            <span class="tema-pill">Derivadas</span><span class="tema-pill">Combinatoria</span>
+            <span class="tema-pill">Geom. Analítica</span><span class="tema-pill">Sistemas Ecua.</span>
+            <span class="tema-pill">+9 temas</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FUNCIONES -->
+  <section id="funciones" class="bg-dark">
+    <div class="section-inner">
+      <p class="section-tag">✦ CARACTERÍSTICAS ✦</p>
+      <h2 class="section-title">Todo lo que necesitas para aprender</h2>
+      <p class="section-sub">Un sistema de juego completo que mantiene la motivación.</p>
+      <div class="features-grid">
+        <div class="feature-card"><span class="feature-icon">❤️</span><div class="feature-title">Sistema de vidas</div><div class="feature-desc">3 vidas por partida. Cada error te cuesta una. Llega al final sin perderlas todas.</div></div>
+        <div class="feature-card"><span class="feature-icon">🔥</span><div class="feature-title">Combos y rachas</div><div class="feature-desc">Acierta 3 seguidas y activa el modo x2. Cada racha duplica tus puntos.</div></div>
+        <div class="feature-card"><span class="feature-icon">⏱️</span><div class="feature-title">Timer y Cronómetro</div><div class="feature-desc">Primaria usa countdown. Secundaria y Pre-uni miden tu velocidad con cronómetro.</div></div>
+        <div class="feature-card"><span class="feature-icon">⭐</span><div class="feature-title">Sistema de estrellas</div><div class="feature-desc">Gana hasta 3 estrellas por partida según tu porcentaje de aciertos.</div></div>
+        <div class="feature-card"><span class="feature-icon">🏆</span><div class="feature-title">Récords locales</div><div class="feature-desc">Guarda tu mejor puntaje por tema, grado y dificultad. Supérate a ti mismo.</div></div>
+        <div class="feature-card"><span class="feature-icon">🌍</span><div class="feature-title">26 países</div><div class="feature-desc">Detecta tu país y adapta los grados escolares automáticamente. Perú, México, Argentina y más.</div></div>
+        <div class="feature-card"><span class="feature-icon">📊</span><div class="feature-title">Análisis de progreso</div><div class="feature-desc">Gráficos de evolución, tendencias y estadísticas detalladas de cada tema.</div></div>
+        <div class="feature-card"><span class="feature-icon">📐</span><div class="feature-title">Diagramas geométricos</div><div class="feature-desc">Las preguntas de geometría incluyen figuras visuales: rectángulos, triángulos, círculos.</div></div>
+        <div class="feature-card"><span class="feature-icon">🎯</span><div class="feature-title">3 dificultades</div><div class="feature-desc">Fácil (10 preguntas), Medio (15) y Difícil (20). Los números se ajustan al nivel.</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PLANES -->
+  <section id="planes">
+    <div class="section-inner">
+      <p class="section-tag">✦ PLANES ✦</p>
+      <h2 class="section-title">Gratis para siempre, mejor con Premium</h2>
+      <p class="section-sub">La app es 100% jugable gratis. Premium añade herramientas de estudio que marcan la diferencia.</p>
+      <div class="planes-wrap">
+        <div class="plan-card">
+          <div class="plan-name">Gratis</div>
+          <p style="color:var(--muted);font-size:0.9rem;">Todo lo que necesitas para practicar</p>
+          <div class="plan-price">S/ 0<span> / siempre</span></div>
+          <ul class="plan-list">
+            <li><span class="ico ok">✅</span> Todos los niveles (Inicial → Pre-uni)</li>
+            <li><span class="ico ok">✅</span> 35+ operaciones matemáticas</li>
+            <li><span class="ico ok">✅</span> Sistema de vidas y combos</li>
+            <li><span class="ico ok">✅</span> Timer y cronómetro</li>
+            <li><span class="ico ok">✅</span> Récords locales</li>
+            <li><span class="ico ok">✅</span> Estadísticas básicas</li>
+            <li><span class="ico no">✕</span><span style="color:var(--dimmed)"> Modo práctica (sin timer)</span></li>
+            <li><span class="ico no">✕</span><span style="color:var(--dimmed)"> Historial de errores</span></li>
+            <li><span class="ico no">✕</span><span style="color:var(--dimmed)"> Modo repaso</span></li>
+          </ul>
+          <a href="#como-funciona" class="plan-btn free">Descargar gratis</a>
+        </div>
+        <div class="plan-card premium">
+          <div class="plan-name">Premium</div>
+          <p style="color:var(--muted);font-size:0.9rem;">Para estudiar de verdad, no solo jugar</p>
+          <div class="plan-price">S/ 9.90<span> / mes</span></div>
+          <ul class="plan-list">
+            <li><span class="ico ok">✅</span> Todo lo del plan Gratis</li>
+            <li><span class="ico gold-ico">✦</span> Sin anuncios</li>
+            <li><span class="ico gold-ico">✦</span> Modo práctica libre — sin timer ni cronómetro, a tu ritmo</li>
+            <li><span class="ico gold-ico">✦</span> Historial detallado — ve exactamente qué fallaste y por qué</li>
+            <li><span class="ico gold-ico">✦</span> Modo repaso — solo las preguntas que fallaste</li>
+          </ul>
+          <a href="#como-funciona" class="plan-btn gold">✦ Obtener Premium</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CÓMO FUNCIONA -->
+  <section id="como-funciona" class="bg-dark">
+    <div class="section-inner" style="text-align:center">
+      <p class="section-tag">✦ PASOS ✦</p>
+      <h2 class="section-title">Empieza en 3 pasos</h2>
+      <p class="section-sub" style="margin:0 auto 60px">Disponible en Google Play Store. Gratis, sin cuenta, sin registro.</p>
+      <div class="steps" style="text-align:left">
+        <div class="step">
+          <div class="step-num">1</div>
+          <div>
+            <div class="step-title">Descarga desde Play Store</div>
+            <div class="step-desc">Busca "Süri Kōre" en Google Play Store o usa el botón de descarga. La app es gratuita y pesa menos de 15 MB.</div>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">2</div>
+          <div>
+            <div class="step-title">Elige tu nivel y tema</div>
+            <div class="step-desc">La app detecta tu país automáticamente. Selecciona tu nivel, grado, el tema que quieres practicar y la dificultad. En 4 pasos estás jugando.</div>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">3</div>
+          <div>
+            <div class="step-title">Supera tus récords</div>
+            <div class="step-desc">Cada partida queda guardada en tu historial. Ve cómo mejoras con el tiempo, desafía tus mejores puntajes y activa combos para duplicar puntos.</div>
+          </div>
+        </div>
+      </div>
+      <a href="https://play.google.com/store" class="btn-primary" style="margin-top:56px;display:inline-block">📱 Descargar en Google Play</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <a href="/" class="footer-logo">SÜRI <span>KŌRE</span></a>
+    <p class="footer-copy">© 2026 Novark Systems · Todos los derechos reservados</p>
+    <ul class="footer-nav">
+      <li><a href="#niveles">Niveles</a></li>
+      <li><a href="#funciones">Funciones</a></li>
+      <li><a href="#planes">Planes</a></li>
+      <li><a href="#como-funciona">Cómo funciona</a></li>
+      <li><a href="/terminos" class="legal">Términos y Condiciones</a></li>
+      <li><a href="/privacidad" class="legal">Política de Privacidad</a></li>
+    </ul>
+  </footer>
+
+</Layout>
+
+<style>
+  /* HERO */
+  .hero { position: relative; z-index: 1; min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 120px 24px 80px; }
+  .wizard-float { font-size: 7rem; animation: float 3s ease-in-out infinite; margin-bottom: 16px; filter: drop-shadow(0 0 32px rgba(255,215,0,0.3)); }
+  @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-18px); } }
+  .hero-badge { display: inline-block; background: rgba(123,47,190,0.2); border: 1px solid rgba(123,47,190,0.4); color: var(--lavender); font-family: 'Cinzel', serif; font-size: 0.75rem; letter-spacing: 0.25em; padding: 7px 18px; border-radius: 30px; margin-bottom: 28px; }
+  .hero h1 { font-family: 'Cinzel', serif; font-size: clamp(3.5rem, 10vw, 7.5rem); font-weight: 900; letter-spacing: 0.12em; line-height: 1; color: var(--gold); text-shadow: 0 0 60px rgba(255,215,0,0.25); margin-bottom: 8px; }
+  .hero h1 span { display: block; font-size: clamp(2.2rem, 6vw, 4.8rem); color: var(--lavender); letter-spacing: 0.3em; }
+  .hero-tagline { font-size: clamp(1.1rem, 2.5vw, 1.5rem); color: var(--muted); letter-spacing: 0.12em; margin: 20px 0 40px; font-style: italic; }
+  .hero-btns { display: flex; gap: 16px; flex-wrap: wrap; justify-content: center; }
+  .btn-primary { background: var(--gold); color: #1a0033; font-family: 'Cinzel', serif; font-weight: 700; font-size: 1rem; letter-spacing: 0.1em; padding: 16px 36px; border-radius: 50px; text-decoration: none; box-shadow: 0 0 30px rgba(255,215,0,0.4); transition: transform 0.2s, box-shadow 0.2s; }
+  .btn-primary:hover { transform: translateY(-3px); box-shadow: 0 0 50px rgba(255,215,0,0.6); }
+  .btn-secondary { background: transparent; color: var(--lavender); font-family: 'Cinzel', serif; font-weight: 600; font-size: 1rem; letter-spacing: 0.08em; padding: 16px 36px; border-radius: 50px; border: 1.5px solid rgba(204,136,255,0.5); text-decoration: none; transition: border-color 0.2s, color 0.2s; }
+  .btn-secondary:hover { border-color: var(--lavender); color: var(--gold2); }
+  .hero-stats { display: flex; gap: 48px; flex-wrap: wrap; justify-content: center; margin-top: 64px; padding-top: 48px; border-top: 1px solid rgba(123,47,190,0.2); width: 100%; max-width: 700px; }
+  .stat-item { text-align: center; }
+  .stat-num { font-family: 'Cinzel', serif; font-size: 2.4rem; font-weight: 900; color: var(--gold); display: block; line-height: 1; }
+  .stat-lbl { color: var(--muted); font-size: 0.9rem; letter-spacing: 0.1em; }
+
+  /* SECTIONS */
+  section { position: relative; z-index: 1; }
+  .bg-dark { background: rgba(17,0,31,0.5); }
+  .section-inner { max-width: 1100px; margin: 0 auto; padding: 100px 24px; }
+  .section-tag { font-family: 'Cinzel', serif; font-size: 0.72rem; letter-spacing: 0.3em; color: var(--dimmed); margin-bottom: 14px; }
+  .section-title { font-family: 'Cinzel', serif; font-size: clamp(2rem, 4vw, 3rem); font-weight: 700; color: var(--gold); margin-bottom: 16px; line-height: 1.2; }
+  .section-sub { color: var(--muted); font-size: 1.15rem; max-width: 540px; margin-bottom: 60px; font-style: italic; }
+
+  /* NIVELES */
+  .niveles-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 20px; }
+  .nivel-card { background: rgba(26,0,51,0.6); border: 1px solid rgba(123,47,190,0.25); border-radius: 20px; padding: 32px 24px; transition: border-color 0.3s, transform 0.3s; position: relative; overflow: hidden; }
+  .nivel-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px; background: var(--accent, var(--purple)); opacity: 0.7; }
+  .nivel-card:hover { border-color: var(--accent, var(--purple)); transform: translateY(-4px); }
+  .nivel-emoji { font-size: 2.8rem; margin-bottom: 14px; display: block; }
+  .nivel-name { font-family: 'Cinzel', serif; font-weight: 700; font-size: 1.1rem; color: var(--gold); margin-bottom: 6px; }
+  .nivel-age { color: var(--muted); font-size: 0.9rem; margin-bottom: 14px; }
+  .nivel-temas { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
+  .tema-pill { background: rgba(123,47,190,0.15); border: 1px solid rgba(123,47,190,0.3); color: var(--lavender); font-size: 0.75rem; padding: 3px 10px; border-radius: 20px; }
+
+  /* FEATURES */
+  .features-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; }
+  .feature-card { background: rgba(26,0,51,0.5); border: 1px solid rgba(123,47,190,0.2); border-radius: 18px; padding: 28px 24px; transition: border-color 0.3s; }
+  .feature-card:hover { border-color: rgba(204,136,255,0.4); }
+  .feature-icon { font-size: 2.2rem; margin-bottom: 14px; display: block; }
+  .feature-title { font-family: 'Cinzel', serif; font-weight: 600; font-size: 1rem; color: var(--text); margin-bottom: 8px; }
+  .feature-desc { color: var(--muted); font-size: 0.95rem; line-height: 1.6; }
+
+  /* PLANES */
+  .planes-wrap { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; max-width: 820px; margin: 0 auto; }
+  .plan-card { background: rgba(17,0,31,0.8); border: 1.5px solid rgba(123,47,190,0.25); border-radius: 24px; padding: 40px 32px; position: relative; }
+  .plan-card.premium { border-color: rgba(255,215,0,0.4); background: rgba(26,0,51,0.9); }
+  .plan-card.premium::before { content: '✦ RECOMENDADO'; position: absolute; top: -14px; left: 50%; transform: translateX(-50%); background: var(--gold); color: #1a0033; font-family: 'Cinzel', serif; font-size: 0.7rem; font-weight: 700; letter-spacing: 0.15em; padding: 5px 16px; border-radius: 20px; }
+  .plan-name { font-family: 'Cinzel', serif; font-size: 1.4rem; font-weight: 700; color: var(--gold); margin-bottom: 6px; }
+  .plan-price { font-family: 'Cinzel', serif; font-size: 2.8rem; font-weight: 900; color: var(--text); margin: 16px 0 4px; }
+  .plan-price span { font-size: 1rem; color: var(--muted); font-weight: 400; }
+  .plan-list { list-style: none; margin-top: 24px; display: flex; flex-direction: column; gap: 12px; }
+  .plan-list li { font-size: 0.95rem; display: flex; gap: 10px; align-items: flex-start; }
+  .plan-list li .ico { flex-shrink: 0; margin-top: 2px; }
+  .ok { color: var(--correct); }
+  .no { color: var(--dimmed); }
+  .gold-ico { color: var(--gold); }
+  .plan-btn { display: block; width: 100%; margin-top: 32px; text-align: center; padding: 14px; border-radius: 40px; font-family: 'Cinzel', serif; font-weight: 700; font-size: 0.95rem; letter-spacing: 0.08em; text-decoration: none; transition: transform 0.2s, box-shadow 0.2s; }
+  .plan-btn.free { background: rgba(123,47,190,0.2); border: 1.5px solid rgba(123,47,190,0.5); color: var(--lavender); }
+  .plan-btn.free:hover { border-color: var(--lavender); transform: translateY(-2px); }
+  .plan-btn.gold { background: var(--gold); color: #1a0033; box-shadow: 0 0 24px rgba(255,215,0,0.35); }
+  .plan-btn.gold:hover { transform: translateY(-2px); box-shadow: 0 0 40px rgba(255,215,0,0.55); }
+
+  /* STEPS */
+  .steps { display: flex; flex-direction: column; max-width: 700px; margin: 0 auto; position: relative; }
+  .steps::before { content: ''; position: absolute; left: 27px; top: 32px; bottom: 32px; width: 2px; background: linear-gradient(to bottom, rgba(123,47,190,0.6), rgba(123,47,190,0.1)); }
+  .step { display: flex; gap: 28px; align-items: flex-start; padding: 0 0 48px; }
+  .step:last-child { padding-bottom: 0; }
+  .step-num { width: 56px; height: 56px; flex-shrink: 0; background: rgba(26,0,51,0.9); border: 2px solid rgba(123,47,190,0.5); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-family: 'Cinzel', serif; font-size: 1.2rem; font-weight: 900; color: var(--gold); position: relative; z-index: 1; }
+  .step-title { font-family: 'Cinzel', serif; font-size: 1.1rem; font-weight: 700; color: var(--text); margin-bottom: 6px; margin-top: 14px; }
+  .step-desc { color: var(--muted); font-size: 0.97rem; line-height: 1.65; }
+
+  @media (max-width: 700px) {
+    .planes-wrap { grid-template-columns: 1fr; }
+    .plan-card.premium { margin-top: 20px; }
+  }
+</style>
