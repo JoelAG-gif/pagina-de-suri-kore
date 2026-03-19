@@ -127,23 +127,6 @@ Cada país tiene grados escolares adaptados al sistema educativo local. La app d
 
 ---
 
-## 📱 Estructura del Proyecto
-
-```
-src/
-├── components/        # AnswerButton, ProgressBar, StarRating, TimerBar, WizardMascot, PremiumGate
-├── context/           # PremiumContext (estado global premium)
-├── data/
-│   ├── curriculos/    # 19 países + default (JSON)
-│   └── operations/    # 33 operaciones (configuración)
-├── engine/            # questionGenerator, recordsManager, countryDetector,
-│                      # scoreManager, premiumManager, adManager, sessionLogger, stepSolver
-├── hooks/             # useCountry, useScore, useTimer
-├── screens/           # Splash, Home, LevelSelect, Game, Result, Records,
-│                      # Premium, Historial, Repaso, PracticaLibre
-├── theme/             # colors, fonts, styles
-└── utils/             # helpers, storage
-```
 
 ---
 
