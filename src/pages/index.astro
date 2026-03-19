@@ -26,8 +26,8 @@ import Layout from '../layouts/Layout.astro';
       <a href="#funciones" class="btn-secondary">Ver funciones</a>
     </div>
     <div class="hero-stats">
-      <div class="stat-item"><span class="stat-num">35+</span><span class="stat-lbl">operaciones matemáticas</span></div>
-      <div class="stat-item"><span class="stat-num">26</span><span class="stat-lbl">países soportados</span></div>
+      <div class="stat-item"><span class="stat-num">33</span><span class="stat-lbl">operaciones matemáticas</span></div>
+      <div class="stat-item"><span class="stat-num">19</span><span class="stat-lbl">países hispanohablantes</span></div>
       <div class="stat-item"><span class="stat-num">4</span><span class="stat-lbl">niveles educativos</span></div>
     </div>
   </section>
@@ -46,7 +46,7 @@ import Layout from '../layouts/Layout.astro';
           <div class="nivel-temas">
             <span class="tema-pill">Contar</span><span class="tema-pill">Formas</span>
             <span class="tema-pill">Comparar</span><span class="tema-pill">Secuencias</span>
-            <span class="tema-pill">Ordinales</span>
+            <span class="tema-pill">Ordinales</span><span class="tema-pill">Agrupación</span>
           </div>
         </div>
         <div class="nivel-card" style="--accent:#4ECDC4">
@@ -56,7 +56,7 @@ import Layout from '../layouts/Layout.astro';
           <div class="nivel-temas">
             <span class="tema-pill">Suma / Resta</span><span class="tema-pill">Multiplicación</span>
             <span class="tema-pill">Fracciones</span><span class="tema-pill">Geometría</span>
-            <span class="tema-pill">Romanos</span><span class="tema-pill">+12 temas</span>
+            <span class="tema-pill">Romanos</span><span class="tema-pill">+13 temas</span>
           </div>
         </div>
         <div class="nivel-card" style="--accent:#CC88FF">
@@ -95,8 +95,8 @@ import Layout from '../layouts/Layout.astro';
         <div class="feature-card"><span class="feature-icon">⏱️</span><div class="feature-title">Timer y Cronómetro</div><div class="feature-desc">Primaria usa countdown. Secundaria y Pre-uni miden tu velocidad con cronómetro.</div></div>
         <div class="feature-card"><span class="feature-icon">⭐</span><div class="feature-title">Sistema de estrellas</div><div class="feature-desc">Gana hasta 3 estrellas por partida según tu porcentaje de aciertos.</div></div>
         <div class="feature-card"><span class="feature-icon">🏆</span><div class="feature-title">Récords locales</div><div class="feature-desc">Guarda tu mejor puntaje por tema, grado y dificultad. Supérate a ti mismo.</div></div>
-        <div class="feature-card"><span class="feature-icon">🌍</span><div class="feature-title">26 países</div><div class="feature-desc">Detecta tu país y adapta los grados escolares automáticamente. Perú, México, Argentina y más.</div></div>
-        <div class="feature-card"><span class="feature-icon">📊</span><div class="feature-title">Análisis de progreso</div><div class="feature-desc">Gráficos de evolución, tendencias y estadísticas detalladas de cada tema.</div></div>
+        <div class="feature-card"><span class="feature-icon">🌍</span><div class="feature-title">19 países</div><div class="feature-desc">Detecta tu país y adapta los grados escolares automáticamente. Perú, México, Argentina, Colombia, España, Chile y más.</div></div>
+        <div class="feature-card"><span class="feature-icon">📊</span><div class="feature-title">Análisis de progreso</div><div class="feature-desc">Estadísticas detalladas, tendencias de mejora y análisis por tema.</div></div>
         <div class="feature-card"><span class="feature-icon">📐</span><div class="feature-title">Diagramas geométricos</div><div class="feature-desc">Las preguntas de geometría incluyen figuras visuales: rectángulos, triángulos, círculos.</div></div>
         <div class="feature-card"><span class="feature-icon">🎯</span><div class="feature-title">3 dificultades</div><div class="feature-desc">Fácil (10 preguntas), Medio (15) y Difícil (20). Los números se ajustan al nivel.</div></div>
       </div>
@@ -116,13 +116,13 @@ import Layout from '../layouts/Layout.astro';
           <div class="plan-price">S/ 0<span> / siempre</span></div>
           <ul class="plan-list">
             <li><span class="ico ok">✅</span> Todos los niveles (Inicial → Pre-uni)</li>
-            <li><span class="ico ok">✅</span> 35+ operaciones matemáticas</li>
+            <li><span class="ico ok">✅</span> 33 operaciones matemáticas</li>
             <li><span class="ico ok">✅</span> Sistema de vidas y combos</li>
             <li><span class="ico ok">✅</span> Timer y cronómetro</li>
             <li><span class="ico ok">✅</span> Récords locales</li>
             <li><span class="ico ok">✅</span> Estadísticas básicas</li>
             <li><span class="ico no">✕</span><span style="color:var(--dimmed)"> Modo práctica (sin timer)</span></li>
-            <li><span class="ico no">✕</span><span style="color:var(--dimmed)"> Historial de errores</span></li>
+            <li><span class="ico no">✕</span><span style="color:var(--dimmed)"> Historial paso a paso</span></li>
             <li><span class="ico no">✕</span><span style="color:var(--dimmed)"> Modo repaso</span></li>
           </ul>
           <a href="#como-funciona" class="plan-btn free">Descargar gratis</a>
@@ -130,12 +130,13 @@ import Layout from '../layouts/Layout.astro';
         <div class="plan-card premium">
           <div class="plan-name">Premium</div>
           <p style="color:var(--muted);font-size:0.9rem;">Para estudiar de verdad, no solo jugar</p>
-          <div class="plan-price">S/ 9.90<span> / mes</span></div>
+          <div class="plan-price">S/ 21.90<span> / mes</span></div>
+          <div class="plan-annual">o S/ 149.90 / año <span class="annual-save">— Ahorra 43%</span></div>
           <ul class="plan-list">
             <li><span class="ico ok">✅</span> Todo lo del plan Gratis</li>
             <li><span class="ico gold-ico">✦</span> Sin anuncios</li>
             <li><span class="ico gold-ico">✦</span> Modo práctica libre — sin timer ni cronómetro, a tu ritmo</li>
-            <li><span class="ico gold-ico">✦</span> Historial detallado — ve exactamente qué fallaste y por qué</li>
+            <li><span class="ico gold-ico">✦</span> Historial detallado — paso a paso de cada pregunta</li>
             <li><span class="ico gold-ico">✦</span> Modo repaso — solo las preguntas que fallaste</li>
           </ul>
           <a href="#como-funciona" class="plan-btn gold">✦ Obtener Premium</a>
@@ -169,7 +170,7 @@ import Layout from '../layouts/Layout.astro';
           <div class="step-num">3</div>
           <div>
             <div class="step-title">Supera tus récords</div>
-            <div class="step-desc">Cada partida queda guardada en tu historial. Ve cómo mejoras con el tiempo, desafía tus mejores puntajes y activa combos para duplicar puntos.</div>
+            <div class="step-desc">Cada partida queda guardada. Ve cómo mejoras con el tiempo, desafía tus mejores puntajes y activa combos para duplicar puntos.</div>
           </div>
         </div>
       </div>
@@ -247,6 +248,8 @@ import Layout from '../layouts/Layout.astro';
   .plan-name { font-family: 'Cinzel', serif; font-size: 1.4rem; font-weight: 700; color: var(--gold); margin-bottom: 6px; }
   .plan-price { font-family: 'Cinzel', serif; font-size: 2.8rem; font-weight: 900; color: var(--text); margin: 16px 0 4px; }
   .plan-price span { font-size: 1rem; color: var(--muted); font-weight: 400; }
+  .plan-annual { color: var(--muted); font-size: 0.95rem; margin-bottom: 4px; }
+  .annual-save { color: var(--correct); font-weight: 700; font-size: 0.85rem; }
   .plan-list { list-style: none; margin-top: 24px; display: flex; flex-direction: column; gap: 12px; }
   .plan-list li { font-size: 0.95rem; display: flex; gap: 10px; align-items: flex-start; }
   .plan-list li .ico { flex-shrink: 0; margin-top: 2px; }
