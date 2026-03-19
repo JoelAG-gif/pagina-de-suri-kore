@@ -127,7 +127,6 @@ Cada país tiene grados escolares adaptados al sistema educativo local. La app d
 
 ---
 
-
 ---
 
 ## 🌐 Landing Page (Este Repositorio)
