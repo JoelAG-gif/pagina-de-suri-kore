@@ -154,11 +154,7 @@ La landing page de SÜRI KŌRE está desarrollada con **Astro** y desplegada en 
 
 **País:** Perú
 
-**Email general:** contacto@novarksystems.com
-
-**Email legal:** legal@novarksystems.com
-
-**Email privacidad:** privacidad@novarksystems.com
+**Email general:** novarksystemstech@gmail.com
 
 ---
 
