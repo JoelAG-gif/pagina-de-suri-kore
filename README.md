@@ -3,20 +3,19 @@
 > **Desde contar objetos hasta derivadas — una sola app para todo el camino | Gamificación educativa que funciona**
 
 [![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactnative.dev/)
-[![Expo](https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white)](https://expo.dev/)
-[![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)](https://www.sqlite.org/)
+[![Expo](https://img.shields.io/badge/Expo_SDK_54-000020?style=for-the-badge&logo=expo&logoColor=white)](https://expo.dev/)
 [![Google Play](https://img.shields.io/badge/Google_Play-Coming_Soon-414141?style=for-the-badge&logo=google-play&logoColor=white)](https://play.google.com/store)
 
-[![Live Demo](https://img.shields.io/badge/🌐_Ver_Landing-8338ec?style=for-the-badge)](https://surikoreapp.vercel.app/)
+[![Live Demo](https://img.shields.io/badge/%F0%9F%8C%90_Ver_Landing-8338ec?style=for-the-badge)](https://surikoreapp.vercel.app/)
 [![Status](https://img.shields.io/badge/Estado-Desarrollo-orange?style=for-the-badge)](https://surikoreapp.vercel.app/)
 
 ---
 
 ## 📖 Descripción
 
-**SÜRI KŌRE** es una aplicación educativa móvil desarrollada con **React Native** y **Expo** que transforma el aprendizaje de matemáticas en una experiencia de juego adictiva y efectiva. Cubre **4 niveles educativos completos** (Inicial, Primaria, Secundaria y Pre-universitario) con más de **35 operaciones matemáticas** diferentes, adaptándose automáticamente al sistema educativo de **26 países**.
+**SÜRI KŌRE** es una aplicación educativa móvil desarrollada con **React Native** y **Expo SDK 54** que transforma el aprendizaje de matemáticas en una experiencia de juego adictiva y efectiva. Cubre **4 niveles educativos completos** (Inicial, Primaria, Secundaria y Pre-universitario) con **33 operaciones matemáticas** diferentes, adaptándose automáticamente al sistema educativo de **19 países hispanohablantes**.
 
-La app utiliza mecánicas de gamificación avanzadas (sistema de vidas, combos, cronómetro, estrellas y récords) para mantener la motivación alta, mientras que su arquitectura SQLite permite funcionar completamente offline y almacenar progreso histórico detallado.
+La app utiliza mecánicas de gamificación avanzadas (sistema de vidas, combos, cronómetro, estrellas y récords) para mantener la motivación alta. Funciona completamente offline y almacena todo el progreso localmente en el dispositivo.
 
 ---
 
@@ -25,288 +24,159 @@ La app utiliza mecánicas de gamificación avanzadas (sistema de vidas, combos, 
 ### 🎮 Sistema de Gamificación
 
 #### ❤️ Sistema de Vidas
-* **3 vidas por partida:** Cada error te cuesta una vida
-* **Game Over Dinámico:** Si pierdes las 3 vidas antes de terminar
-* **Visualización Clara:** Indicador de vidas restantes en pantalla
+- **3 vidas por partida:** Cada error te cuesta una vida
+- **Game Over Dinámico:** Si pierdes las 3 vidas antes de terminar
+- **Visualización Clara:** Indicador de vidas restantes en pantalla
 
 #### 🔥 Combos y Rachas
-* **Multiplicador x2:** Acierta 3 respuestas seguidas para activarlo
-* **Puntos Dobles:** Cada pregunta vale el doble durante el combo
-* **Pérdida de Combo:** Un error rompe la racha
-* **Feedback Visual:** Animaciones cuando activas/pierdes el combo
+- **Multiplicador x2:** Acierta 3 respuestas seguidas para activarlo
+- **Puntos Dobles:** Cada pregunta vale el doble durante el combo
+- **Pérdida de Combo:** Un error rompe la racha
 
 #### ⭐ Sistema de Estrellas
-* **3 Estrellas Máximas:** Rendimiento basado en % de aciertos
-* **Criterios de Evaluación:**
-  * ⭐⭐⭐ **90-100%** de aciertos
-  * ⭐⭐ **70-89%** de aciertos
-  * ⭐ **50-69%** de aciertos
-  * Sin estrellas: **<50%** de aciertos
+- ⭐⭐⭐ **80%+** de aciertos
+- ⭐⭐ **50-79%** de aciertos
+- ⭐ **30-49%** de aciertos
+- Sin estrellas: **<30%** de aciertos
 
 #### ⏱️ Sistema de Tiempo
-* **Primaria:** Countdown timer (tiempo límite por pregunta)
-* **Secundaria y Pre-uni:** Cronómetro ascendente (mide tu velocidad)
-* **Récords de Velocidad:** Compite contra tus mejores tiempos
+- **Primaria:** Countdown timer (tiempo límite por pregunta)
+- **Secundaria y Pre-uni:** Cronómetro ascendente (mide tu velocidad)
 
 #### 🏆 Récords Personales
-* **Guardado Local:** SQLite almacena tu mejor puntaje por cada tema
-* **Desglose Detallado:** Récord separado por grado y dificultad
-* **Historial Completo:** Revisa tu evolución a través del tiempo
+- Guardado local por tema, grado y dificultad
+- Historial completo de partidas
 
 ---
 
 ## 📚 Niveles Educativos
 
-### 🎈 Inicial (3-6 años)
-**5 temas básicos para preescolares**
+### 🎈 Inicial (3-6 años) — 6 temas
+🔢 Contar · 🔷 Formas · ⚖️ Comparar · 🔗 Secuencias · 🥇 Ordinales · 👥 Agrupación
 
-* 🔢 **Contar:** Del 1 al 20 con objetos visuales
-* 🔷 **Formas:** Identificación de círculos, cuadrados, triángulos
-* ⚖️ **Comparar:** Más que, menos que, igual que
-* 🔗 **Secuencias:** Patrones simples y completar series
-* 🥇 **Ordinales:** Primero, segundo, tercero
+### 📚 Primaria (6-12 años) — 18 temas
+➕ Suma · ➖ Resta · ✖️ Multiplicación · ➗ División · 🔣 Decimales · ½ Fracciones · % Porcentajes · ⏰ Tiempo · 💰 Dinero · 📏 Medidas · 🏛️ Romanos · ⚡ Potencias · 🔢 MCM/MCD · ⚖️ Proporciones · 📐 Geometría · 📊 Estadística · 🔤 Álgebra · ⚖️ Comparar
 
-### 📚 Primaria (6-12 años)
-**12 temas con dificultad progresiva**
+### 🎓 Secundaria (12-17 años) — 13 temas · ⏱️ Cronómetro
+🔤 Álgebra · 📐 Geometría · 📊 Estadística · ½ Fracciones · √ Potencias y Raíces · 🎲 Probabilidad · 📈 Progresiones · ㏒ Logaritmos · 🔢 Sistemas Ecua. · 🧩 Factorización · 📐 Trigonometría · % Porcentajes · ⚖️ Proporciones
 
-* ➕ **Suma y Resta:** Operaciones básicas
-* ✖️ **Multiplicación:** Tablas del 1 al 12
-* ➗ **División:** Divisiones exactas e inexactas
-* 🍕 **Fracciones:** Suma, resta, multiplicación y simplificación
-* 📐 **Geometría:** Perímetros, áreas de figuras básicas
-* 💯 **Decimales:** Operaciones con números decimales
-* 🔢 **Potencias:** Cuadrados y cubos
-* 📊 **Unidades:** Conversión de medidas (longitud, masa, tiempo)
-* ⏰ **Tiempo:** Lectura de reloj, sumas de horas
-* 💰 **Dinero:** Problemas de compra/venta
-* 🏛️ **Números Romanos:** Conversión I-X-L-C-D-M
-* 🔄 **MCM y MCD:** Múltiplos y divisores
-
-### 🎓 Secundaria (12-17 años)
-**9 temas con cronómetro de velocidad**
-
-* 📐 **Álgebra:** Ecuaciones de primer y segundo grado
-* 📊 **Trigonometría:** Razones, identidades, ángulos notables
-* 📈 **Funciones:** Lineales, cuadráticas, evaluación
-* 🎲 **Probabilidad:** Cálculo de probabilidades simples y compuestas
-* 📉 **Estadística:** Media, mediana, moda, desviación
-* 📏 **Geometría Analítica:** Distancia, punto medio, pendiente
-* 📊 **Logaritmos:** Propiedades y ecuaciones logarítmicas
-* 🔢 **Sistemas de Ecuaciones:** 2x2 y 3x3
-* 🔺 **Áreas y Volúmenes:** Figuras 2D y sólidos 3D
-
-### 🏛️ Pre-universitario (17+ años)
-**9 temas de nivel avanzado**
-
-* 📈 **Derivadas:** Reglas de derivación, aplicaciones
-* ∫ **Integrales:** Inmediatas, por partes, sustitución
-* 🎲 **Combinatoria:** Permutaciones, combinaciones, variaciones
-* 📊 **Matrices:** Operaciones, determinantes, inversas
-* 🔢 **Números Complejos:** Operaciones en forma binómica y polar
-* 📐 **Límites:** Cálculo de límites algebraicos y trigonométricos
-* 🌊 **Series:** Convergencia, suma de series
-* 📉 **Cónicas:** Ecuaciones de circunferencia, elipse, parábola, hipérbola
-* 🧮 **Sistemas de Ecuaciones Avanzados:** Métodos de resolución
+### 🏛️ Pre-universitario (17+ años) — 13 temas · ⏱️ Velocidad
+🔤 Álgebra avanzada · 📐 Trigonometría · 📍 Geom. Analítica · 📊 Estadística · 🎲 Probabilidad · 🎯 Combinatoria · ㏒ Logaritmos · 📈 Progresiones · ∫ Derivadas · √ Potencias y Raíces · 🔢 Sistemas Ecua. · 🧩 Factorización · 📐 Geometría
 
 ---
 
-## 🎯 Dificultades y Cantidad de Preguntas
+## 🎯 Dificultades
 
-### Fácil
-* **10 preguntas** por partida
-* Números pequeños y operaciones simples
-* Ideal para comenzar a practicar
-
-### Medio
-* **15 preguntas** por partida
-* Números moderados y complejidad intermedia
-* Recomendado para consolidar conocimientos
-
-### Difícil
-* **20 preguntas** por partida
-* Números grandes y problemas complejos
-* Para dominar completamente el tema
-
-**Los rangos numéricos se ajustan automáticamente según el nivel educativo seleccionado.**
+| Nivel | Preguntas | Descripción |
+|-------|-----------|-------------|
+| **Fácil** | 10 | Números pequeños, ideal para comenzar |
+| **Medio** | 15 | Complejidad intermedia |
+| **Difícil** | 20 | Números grandes, problemas complejos |
 
 ---
 
-## 🌍 Soporte Internacional (26 Países)
+## 🌍 19 Países Hispanohablantes
 
-SÜRI KŌRE detecta automáticamente tu ubicación y adapta los **grados escolares** al sistema educativo de tu país:
+🇵🇪 Perú · 🇲🇽 México · 🇦🇷 Argentina · 🇨🇴 Colombia · 🇪🇸 España · 🇨🇱 Chile · 🇪🇨 Ecuador · 🇧🇴 Bolivia · 🇻🇪 Venezuela · 🇵🇾 Paraguay · 🇺🇾 Uruguay · 🇨🇷 Costa Rica · 🇬🇹 Guatemala · 🇵🇦 Panamá · 🇭🇳 Honduras · 🇩🇴 Rep. Dominicana · 🇸🇻 El Salvador · 🇳🇮 Nicaragua · 🇨🇺 Cuba
 
-**🌎 América:**
-* 🇵🇪 Perú
-* 🇲🇽 México
-* 🇦🇷 Argentina
-* 🇨🇱 Chile
-* 🇨🇴 Colombia
-* 🇪🇨 Ecuador
-* 🇧🇷 Brasil
-
-**🌍 Europa:**
-* 🇪🇸 España
-
-**Cada país tiene su configuración de grados adaptada al sistema educativo local.**
+Cada país tiene grados escolares adaptados al sistema educativo local. La app detecta el país automáticamente.
 
 ---
 
 ## 🛠️ Stack Tecnológico
 
 | Categoría | Tecnología |
-| :--- | :--- |
-| **Framework** | React Native 0.74 |
-| **Runtime** | Expo SDK 51 |
-| **Base de Datos** | SQLite (expo-sqlite) para récords y progreso |
-| **Navegación** | React Navigation 6 (Stack + Bottom Tabs) |
-| **Estado** | React Hooks (useState, useEffect, useContext) |
-| **Animaciones** | React Native Reanimated 3 |
-| **Geolocalización** | expo-location (detección de país) |
-| **Storage** | AsyncStorage para preferencias |
-| **UI/UX** | Custom Components, React Native Paper |
-| **Matemáticas** | MathJax para renderizado de fórmulas |
+|-----------|------------|
+| **Framework** | React Native (Expo SDK 54) |
+| **Navegación** | React Navigation (Stack Navigator) |
+| **Estado** | React Hooks + Context API |
+| **Almacenamiento** | AsyncStorage (récords, historial, sesiones) |
+| **Animaciones** | Animated (React Native built-in) |
+| **Localización** | expo-localization (detección de país) |
+| **Compras** | RevenueCat (react-native-purchases) |
+| **Anuncios** | Google AdMob (react-native-google-mobile-ads) |
+| **Build** | EAS Build |
 
 ---
 
 ## 💎 Planes y Precios
 
 ### 🆓 Gratis (Para Siempre)
-Todo lo que necesitas para practicar
+- ✅ Todos los niveles (Inicial → Pre-universitario)
+- ✅ 33 operaciones matemáticas
+- ✅ Sistema de vidas, combos y estrellas
+- ✅ Timer y cronómetro
+- ✅ Récords locales por tema
+- ✅ Estadísticas y análisis
+- ✅ 19 países con grados adaptados
+- ✅ Con anuncios (solo entre partidas)
 
-* ✅ Todos los niveles (Inicial → Pre-universitario)
-* ✅ 35+ operaciones matemáticas
-* ✅ Sistema de vidas, combos y estrellas
-* ✅ Timer y cronómetro
-* ✅ Récords locales por tema
-* ✅ Estadísticas básicas de rendimiento
-* ✅ Detección automática de país
-* ❌ Modo práctica (sin timer)
-* ❌ Historial detallado de errores
-* ❌ Modo repaso (solo preguntas falladas)
-* ✅ Con anuncios (no invasivos)
+### 👑 Premium
+- ✅ **Todo lo del plan Gratis**
+- ✦ **Sin anuncios**
+- ✦ **Modo Práctica Libre:** Sin timer ni cronómetro, a tu ritmo
+- ✦ **Historial Detallado:** Proceso paso a paso de cada pregunta
+- ✦ **Modo Repaso:** Practica solo las preguntas que fallaste
 
-### ⭐ Premium 
-Para estudiar de verdad, no solo jugar
+| Plan | Precio | Ahorro |
+|------|--------|--------|
+| Mensual | S/ 21.90/mes | — |
+| Anual | S/ 149.90/año | 43% vs mensual |
 
-* ✅ **Todo lo del plan Gratis**
-* ✦ **Sin anuncios**
-* ✦ **Modo Práctica Libre:** Practica sin timer ni cronómetro, a tu ritmo
-* ✦ **Historial Detallado:** Ve exactamente qué fallaste y por qué
-* ✦ **Modo Repaso:** Partida especial solo con las preguntas que fallaste
-* ✦ **Estadísticas Avanzadas:** Gráficos de evolución, temas más débiles
-* ✦ **Exportar Progreso:** Descarga tus estadísticas en PDF
+*Precios en Soles peruanos. Los precios finales pueden variar por país según Google Play.*
 
 ---
 
-## 📸 Capturas de Pantalla
+## 📱 Estructura del Proyecto
 
-> **Nota:** Este repositorio contiene únicamente la landing page web. La aplicación móvil está en desarrollo privado.
-
-**Ver landing page en vivo:** [surikoreapp.vercel.app](https://surikoreapp.vercel.app/)
+```
+src/
+├── components/        # AnswerButton, ProgressBar, StarRating, TimerBar, WizardMascot, PremiumGate
+├── context/           # PremiumContext (estado global premium)
+├── data/
+│   ├── curriculos/    # 19 países + default (JSON)
+│   └── operations/    # 33 operaciones (configuración)
+├── engine/            # questionGenerator, recordsManager, countryDetector,
+│                      # scoreManager, premiumManager, adManager, sessionLogger, stepSolver
+├── hooks/             # useCountry, useScore, useTimer
+├── screens/           # Splash, Home, LevelSelect, Game, Result, Records,
+│                      # Premium, Historial, Repaso, PracticaLibre
+├── theme/             # colors, fonts, styles
+└── utils/             # helpers, storage
+```
 
 ---
 
 ## 🌐 Landing Page (Este Repositorio)
 
-La landing page de SÜRI KŌRE está desarrollada con:
-* **HTML5 semántico**
-* **CSS3 moderno** (Variables CSS, Flexbox, Grid)
-* **JavaScript Vanilla** (sin frameworks)
-* **Diseño Responsive** (Mobile-first)
-* **Animaciones CSS** (smooth scroll, hover effects)
+La landing page de SÜRI KŌRE está desarrollada con **Astro** y desplegada en Vercel:
 
-### Características de la Landing
-* ✅ Hero section con tagline impactante
-* ✅ Sección de niveles con tarjetas interactivas
-* ✅ Listado de funciones con iconos temáticos
-* ✅ Comparativa de planes (Gratis vs Premium)
-* ✅ Sección "Cómo funciona" con pasos
-* ✅ Footer con políticas y términos
-* ✅ Call-to-action a Google Play Store
+- ✅ Hero section con mago animado
+- ✅ Sección de niveles con tarjetas interactivas
+- ✅ Listado de funciones con iconos
+- ✅ Comparativa de planes (Gratis vs Premium) con precios
+- ✅ Sección "Cómo funciona" con pasos
+- ✅ Página de Términos y Condiciones completa
+- ✅ Página de Política de Privacidad completa
+- ✅ Footer con enlaces legales
+- ✅ Diseño responsive (mobile-first)
+- ✅ Animación de estrellas en canvas
 
-
-## 🚀 Roadmap de Lanzamiento
-
-### ✅ Completado
-- [x] Diseño y maquetación de UI/UX
-- [x] Sistema de niveles y temas implementado
-- [x] Generador de preguntas aleatorias
-- [x] Sistema de gamificación (vidas, combos, estrellas)
-- [x] Base de datos SQLite para récords
-- [x] Landing page web
-- [x] Detección automática de país
-
-### 🚧 En Desarrollo
-- [ ] Modo Premium con backend de suscripciones
-- [ ] Integración con Google Play Billing
-- [ ] Sistema de notificaciones push (recordatorios diarios)
-- [ ] Modo multijugador (desafíos entre amigos)
-
-### 🔮 Futuras Versiones
-- [ ] Versión iOS (App Store)
-- [ ] Modo offline completo con sincronización en la nube
-- [ ] Avatar personalizable y sistema de logros
-- [ ] Tabla de clasificación global
-- [ ] Soporte para tablets con UI optimizada
-- [ ] Integración con plataformas educativas (Google Classroom)
-
----
-
-## 📱 Instalación de la App (Próximamente)
-
-### Desde Google Play Store
-```
-1. Busca "Süri Kōre" en Google Play
-2. Descarga e instala
-3. ¡Empieza a practicar!
-```
-
----
-
-## 🎓 Filosofía Educativa
-
-SÜRI KŌRE se basa en 3 principios pedagógicos fundamentales:
-
-### 1️⃣ **Aprendizaje por Repetición Espaciada**
-El sistema de récords y modo repaso implementa técnicas de memoria espaciada: practicas más los temas donde tienes errores.
-
-### 2️⃣ **Gamificación Motivacional**
-El sistema de vidas, combos y estrellas no es solo decorativo: genera dopamina natural que mantiene el cerebro comprometido con el aprendizaje.
-
-### 3️⃣ **Progresión Adaptativa**
-Los 3 niveles de dificultad se ajustan automáticamente al nivel educativo, asegurando que siempre haya desafío pero nunca frustración extrema.
-
----
-
-## 📊 Estadísticas de Uso (Proyectadas)
-
-* **35+ operaciones matemáticas** cubriendo Inicial → Pre-universitario
-* **26 países** con sistemas educativos adaptados
-* **4 niveles educativos** (Inicial, Primaria, Secundaria, Pre-uni)
-* **3 dificultades** por tema (Fácil, Medio, Difícil)
-* **Miles de preguntas** generadas aleatoriamente
-* **Offline-first:** Funciona 100% sin internet
-
----
-
-## 👥 Público Objetivo
-
-* 🧒 **Niños de 3-6 años:** Aprendiendo a contar y reconocer formas
-* 📚 **Estudiantes de Primaria:** Dominando operaciones básicas
-* 🎓 **Estudiantes de Secundaria:** Preparándose para exámenes
-* 🏛️ **Pre-universitarios:** Practicando para exámenes de admisión
-* 👨‍🏫 **Profesores:** Herramienta complementaria en clase
-* 👨‍👩‍👧 **Padres:** Apoyo en educación en casa
+**Ver en vivo:** [surikoreapp.vercel.app](https://surikoreapp.vercel.app/)
 
 ---
 
 ## 📞 Contacto y Soporte
 
-**Email:** jireharoni03@gmail.com
+**Empresa:** Novark Systems
 
-**WhatsApp (próximamente):** +51 960 756 758
+**País:** Perú
 
-**Reportar Bugs:** [GitHub Issues](https://github.com/JoelAG-gif/pagina-de-suri-kore/issues)
+**Email general:** contacto@novarksystems.com
+
+**Email legal:** legal@novarksystems.com
+
+**Email privacidad:** privacidad@novarksystems.com
 
 ---
 
@@ -314,43 +184,10 @@ Los 3 niveles de dificultad se ajustan automáticamente al nivel educativo, aseg
 
 © 2026 Novark Systems. Todos los derechos reservados.
 
-**SÜRI KŌRE** es un producto en desarrollo. La aplicación móvil no es de código abierto. Este repositorio contiene únicamente el código de la landing page web.
-
----
-
-## 👨‍💻 Desarrollado por
-
-**Jireh Aroni**
-
-*Desarrollador Full Stack especializado en aplicaciones educativas y gamificación*
-
-* 💼 [LinkedIn](https://linkedin.com/in/jireharoni)
-* 💻 [GitHub](https://github.com/JoelAG-gif)
-* 🌐 [Portafolio](https://mi-portafolio-jireharoni.vercel.app/)
-
----
-
-## 🙏 Agradecimientos
-
-* **MathJax** por el renderizado de fórmulas matemáticas
-* **Expo Team** por su increíble framework
-* **React Native Community** por los recursos y componentes
-* **Beta Testers** que están probando la primera versión
-
----
-
-## 🌟 Contribuir
-
-Este proyecto **no acepta contribuciones externas** por el momento, ya que es un producto comercial en desarrollo privado.
-
-Si encuentras bugs o tienes sugerencias, por favor repórtalos en la sección de [Issues](https://github.com/JoelAG-gif/pagina-de-suri-kore/issues).
+**SÜRI KŌRE** es un producto comercial. La aplicación móvil no es de código abierto. Este repositorio contiene únicamente el código de la landing page web.
 
 ---
 
 **🧙 SÜRI KŌRE — Matemáticas Mágicas**
 
-[🌐 Ver Landing Page](https://surikoreapp.vercel.app/) • [📱 Descargar App (Próximamente)](https://play.google.com/store)
-
----
-
-> *"La mejor manera de aprender matemáticas es jugando. SÜRI KŌRE convierte cada ejercicio en una aventura."*
+[🌐 Ver Landing Page](https://surikoreapp.vercel.app/) · [📱 Descargar App (Próximamente)](https://play.google.com/store)
