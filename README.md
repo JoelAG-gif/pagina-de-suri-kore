@@ -6,7 +6,7 @@
 [![Expo](https://img.shields.io/badge/Expo_SDK_54-000020?style=for-the-badge&logo=expo&logoColor=white)](https://expo.dev/)
 [![Google Play](https://img.shields.io/badge/Google_Play-Coming_Soon-414141?style=for-the-badge&logo=google-play&logoColor=white)](https://play.google.com/store)
 
-[![Live Demo](https://img.shields.io/badge/%F0%9F%8C%90_Ver_Landing-8338ec?style=for-the-badge)](https://surikoreapp.vercel.app/)
+[![Live Demo](https://img.shields.io/badge/🌐_Ver_Landing-8338ec?style=for-the-badge)](https://surikoreapp.vercel.app/)
 [![Status](https://img.shields.io/badge/Estado-Desarrollo-orange?style=for-the-badge)](https://surikoreapp.vercel.app/)
 
 ---
@@ -35,29 +35,29 @@ La app utiliza mecánicas de gamificación avanzadas (sistema de vidas, combos, 
 
 #### ⭐ Sistema de Estrellas
 - ⭐⭐⭐ **80%+** de aciertos
-- ⭐⭐ **50-79%** de aciertos
-- ⭐ **30-49%** de aciertos
-- Sin estrellas: **<30%** de aciertos
+- ⭐⭐ **50–79%** de aciertos
+- ⭐ **30–49%** de aciertos
+- Sin estrellas: **< 30%** de aciertos
 
 #### ⏱️ Sistema de Tiempo
-- **Primaria:** Countdown timer (tiempo límite por pregunta)
-- **Secundaria y Pre-uni:** Cronómetro ascendente (mide tu velocidad)
+- **Primaria:** Countdown timer — tiempo límite por pregunta
+- **Secundaria y Pre-uni:** Cronómetro ascendente — mide tu velocidad
 
 #### 🏆 Récords Personales
 - Guardado local por tema, grado y dificultad
-- Historial completo de partidas
+- Historial completo de partidas con análisis de progreso
 
 ---
 
 ## 📚 Niveles Educativos
 
-### 🎈 Inicial (3-6 años) — 6 temas
-🔢 Contar · 🔷 Formas · ⚖️ Comparar · 🔗 Secuencias · 🥇 Ordinales · 👥 Agrupación
+### 🎈 Inicial (3–6 años) — 6 temas
+👆 Contar · 🔷 Formas · ⚖️ Comparar · 🔢 Secuencias · 1️⃣ Ordinales · 👥 Agrupación
 
-### 📚 Primaria (6-12 años) — 18 temas
+### 📚 Primaria (6–12 años) — 18 temas
 ➕ Suma · ➖ Resta · ✖️ Multiplicación · ➗ División · 🔣 Decimales · ½ Fracciones · % Porcentajes · ⏰ Tiempo · 💰 Dinero · 📏 Medidas · 🏛️ Romanos · ⚡ Potencias · 🔢 MCM/MCD · ⚖️ Proporciones · 📐 Geometría · 📊 Estadística · 🔤 Álgebra · ⚖️ Comparar
 
-### 🎓 Secundaria (12-17 años) — 13 temas · ⏱️ Cronómetro
+### 🎓 Secundaria (12–17 años) — 13 temas · ⏱️ Cronómetro
 🔤 Álgebra · 📐 Geometría · 📊 Estadística · ½ Fracciones · √ Potencias y Raíces · 🎲 Probabilidad · 📈 Progresiones · ㏒ Logaritmos · 🔢 Sistemas Ecua. · 🧩 Factorización · 📐 Trigonometría · % Porcentajes · ⚖️ Proporciones
 
 ### 🏛️ Pre-universitario (17+ años) — 13 temas · ⏱️ Velocidad
@@ -68,10 +68,10 @@ La app utiliza mecánicas de gamificación avanzadas (sistema de vidas, combos, 
 ## 🎯 Dificultades
 
 | Nivel | Preguntas | Descripción |
-|-------|-----------|-------------|
-| **Fácil** | 10 | Números pequeños, ideal para comenzar |
-| **Medio** | 15 | Complejidad intermedia |
-| **Difícil** | 20 | Números grandes, problemas complejos |
+|---|---|---|
+| 🌱 **Fácil** | 10 | Números pequeños, ideal para comenzar |
+| 🔥 **Medio** | 15 | Complejidad intermedia |
+| 💀 **Difícil** | 20 | Números grandes, problemas complejos |
 
 ---
 
@@ -79,23 +79,7 @@ La app utiliza mecánicas de gamificación avanzadas (sistema de vidas, combos, 
 
 🇵🇪 Perú · 🇲🇽 México · 🇦🇷 Argentina · 🇨🇴 Colombia · 🇪🇸 España · 🇨🇱 Chile · 🇪🇨 Ecuador · 🇧🇴 Bolivia · 🇻🇪 Venezuela · 🇵🇾 Paraguay · 🇺🇾 Uruguay · 🇨🇷 Costa Rica · 🇬🇹 Guatemala · 🇵🇦 Panamá · 🇭🇳 Honduras · 🇩🇴 Rep. Dominicana · 🇸🇻 El Salvador · 🇳🇮 Nicaragua · 🇨🇺 Cuba
 
-Cada país tiene grados escolares adaptados al sistema educativo local. La app detecta el país automáticamente.
-
----
-
-## 🛠️ Stack Tecnológico
-
-| Categoría | Tecnología |
-|-----------|------------|
-| **Framework** | React Native (Expo SDK 54) |
-| **Navegación** | React Navigation (Stack Navigator) |
-| **Estado** | React Hooks + Context API |
-| **Almacenamiento** | AsyncStorage (récords, historial, sesiones) |
-| **Animaciones** | Animated (React Native built-in) |
-| **Localización** | expo-localization (detección de país) |
-| **Compras** | RevenueCat (react-native-purchases) |
-| **Anuncios** | Google AdMob (react-native-google-mobile-ads) |
-| **Build** | EAS Build |
+Cada país tiene grados escolares adaptados a su sistema educativo local. La app detecta el país automáticamente con `expo-localization`.
 
 ---
 
@@ -103,11 +87,11 @@ Cada país tiene grados escolares adaptados al sistema educativo local. La app d
 
 ### 🆓 Gratis (Para Siempre)
 - ✅ Todos los niveles (Inicial → Pre-universitario)
-- ✅ 33 operaciones matemáticas
+- ✅ 33 operaciones matemáticas completas
 - ✅ Sistema de vidas, combos y estrellas
 - ✅ Timer y cronómetro
-- ✅ Récords locales por tema
-- ✅ Estadísticas y análisis
+- ✅ Récords locales por tema y dificultad
+- ✅ Estadísticas y análisis de progreso
 - ✅ 19 países con grados adaptados
 - ✅ Con anuncios (solo entre partidas)
 
@@ -115,34 +99,45 @@ Cada país tiene grados escolares adaptados al sistema educativo local. La app d
 - ✅ **Todo lo del plan Gratis**
 - ✦ **Sin anuncios**
 - ✦ **Modo Práctica Libre:** Sin timer ni cronómetro, a tu ritmo
-- ✦ **Historial Detallado:** Proceso paso a paso de cada pregunta
+- ✦ **Historial Detallado:** Proceso visual paso a paso de cada pregunta fallada
 - ✦ **Modo Repaso:** Practica solo las preguntas que fallaste
 
 | Plan | Precio | Ahorro |
-|------|--------|--------|
-| Mensual | S/ 21.90/mes | — |
-| Anual | S/ 149.90/año | 43% vs mensual |
+|---|---|---|
+| 📅 Mensual | S/ 21.90 / mes | — |
+| 🗓️ Anual | S/ 149.90 / año | **43% vs mensual** |
 
-*Precios en Soles peruanos. Los precios finales pueden variar por país según Google Play.*
-
----
+> *Precios en Soles peruanos. Los precios finales pueden variar por país según Google Play.*
 
 ---
 
-## 🌐 Landing Page (Este Repositorio)
+## 🛠️ Stack Tecnológico
 
-La landing page de SÜRI KŌRE está desarrollada con **Astro** y desplegada en Vercel:
+| Categoría | Tecnología |
+|---|---|
+| **Framework** | React Native (Expo SDK 54) |
+| **Navegación** | React Navigation (Stack Navigator) |
+| **Estado global** | React Hooks + Context API |
+| **Almacenamiento** | AsyncStorage (récords, historial, sesiones) |
+| **Animaciones** | Animated API (React Native built-in) |
+| **Localización** | expo-localization (detección de país) |
+| **Compras in-app** | RevenueCat (react-native-purchases) |
+| **Anuncios** | Google AdMob (react-native-google-mobile-ads) |
+| **Build** | EAS Build |
+
+---
+
+## 🌐 Landing Page
+
+La landing page está desarrollada con **Astro** y desplegada en Vercel.
 
 - ✅ Hero section con mago animado
 - ✅ Sección de niveles con tarjetas interactivas
-- ✅ Listado de funciones con iconos
 - ✅ Comparativa de planes (Gratis vs Premium) con precios
 - ✅ Sección "Cómo funciona" con pasos
-- ✅ Página de Términos y Condiciones completa
-- ✅ Página de Política de Privacidad completa
-- ✅ Footer con enlaces legales
-- ✅ Diseño responsive (mobile-first)
+- ✅ Páginas de Términos y Política de Privacidad completas
 - ✅ Animación de estrellas en canvas
+- ✅ Diseño responsive (mobile-first)
 
 **Ver en vivo:** [surikoreapp.vercel.app](https://surikoreapp.vercel.app/)
 
@@ -150,11 +145,19 @@ La landing page de SÜRI KŌRE está desarrollada con **Astro** y desplegada en 
 
 ## 📞 Contacto y Soporte
 
-**Empresa:** Novark Systems
+**Empresa:** Novark Systems — Lima, Perú
 
-**País:** Perú
+**Email:** novarksystemstech@gmail.com
 
-**Email general:** novarksystemstech@gmail.com
+---
+
+## 👨‍💻 Desarrollado por
+
+**Jireh Aroni** — Desarrollador Full Stack especializado en aplicaciones móviles y sistemas de gestión
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/jireharoni)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/JoelAG-gif)
+[![Portfolio](https://img.shields.io/badge/Portafolio-8338ec?style=flat&logo=vercel&logoColor=white)](https://mi-portafolio-jireharoni.vercel.app/)
 
 ---
 
