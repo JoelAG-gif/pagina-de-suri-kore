@@ -143,25 +143,9 @@ SÜRI KŌRE detecta automáticamente tu ubicación y adapta los **grados escolar
 * 🇨🇴 Colombia
 * 🇪🇨 Ecuador
 * 🇧🇷 Brasil
-* 🇺🇸 Estados Unidos
-* 🇨🇦 Canadá
 
 **🌍 Europa:**
 * 🇪🇸 España
-* 🇫🇷 Francia
-* 🇩🇪 Alemania
-* 🇮🇹 Italia
-* 🇬🇧 Reino Unido
-* 🇵🇹 Portugal
-
-**🌏 Otros:**
-* 🇦🇺 Australia
-* 🇳🇿 Nueva Zelanda
-* 🇯🇵 Japón
-* 🇰🇷 Corea del Sur
-* 🇨🇳 China
-* 🇮🇳 India
-* Y más...
 
 **Cada país tiene su configuración de grados adaptada al sistema educativo local.**
 
@@ -201,7 +185,7 @@ Todo lo que necesitas para practicar
 * ❌ Modo repaso (solo preguntas falladas)
 * ✅ Con anuncios (no invasivos)
 
-### ⭐ Premium - S/ 9.90/mes
+### ⭐ Premium 
 Para estudiar de verdad, no solo jugar
 
 * ✅ **Todo lo del plan Gratis**
@@ -240,53 +224,6 @@ La landing page de SÜRI KŌRE está desarrollada con:
 * ✅ Footer con políticas y términos
 * ✅ Call-to-action a Google Play Store
 
----
-
-## 🔧 Instalación del Proyecto (Landing Page)
-
-```bash
-# Clonar el repositorio
-git clone https://github.com/JoelAG-gif/pagina-de-suri-kore.git
-
-# Entrar al directorio
-cd pagina-de-suri-kore
-
-# Abrir con Live Server (VS Code) o cualquier servidor local
-# No requiere build ni dependencias
-```
-
----
-
-## 📂 Estructura del Proyecto
-
-```
-pagina-de-suri-kore/
-├── index.html          # Página principal
-├── terminos.html       # Términos y Condiciones
-├── privacidad.html     # Política de Privacidad
-├── css/
-│   └── styles.css      # Estilos globales
-├── js/
-│   └── main.js         # Scripts de interacción
-└── assets/
-    ├── images/         # Capturas de la app
-    └── icons/          # Iconos de niveles
-```
-
----
-
-## 🎨 Paleta de Colores
-
-```css
---primary: #8338EC;      /* Púrpura (tema mágico) */
---secondary: #FF006E;    /* Rosa vibrante */
---accent: #FFBE0B;       /* Amarillo */
---dark: #1A1423;         /* Fondo oscuro */
---light: #F7F4F3;        /* Texto claro */
---success: #06FFA5;      /* Verde neón */
-```
-
----
 
 ## 🚀 Roadmap de Lanzamiento
 
@@ -322,14 +259,6 @@ pagina-de-suri-kore/
 1. Busca "Süri Kōre" en Google Play
 2. Descarga e instala
 3. ¡Empieza a practicar!
-```
-
-### APK Directo (Beta Testers)
-```
-1. Descarga el APK desde el link proporcionado
-2. Habilita "Fuentes desconocidas" en Configuración → Seguridad
-3. Instala el archivo APK
-4. Acepta los permisos necesarios
 ```
 
 ---
